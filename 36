@@ -1,0 +1,66 @@
+#Name:Mahim Ali
+#Email:mahim.ali32@myhunter.cuny.edu
+#Date:November 6,2022
+#This program prints prices of liquids based on size
+
+def computePrice(liquid,size):
+
+  if liquid == "coffee":
+    if size == "small":
+      r = print("small size coffee: ")
+      return 2.50
+    elif size == "medium":
+      r = print("medium size coffee: ")
+      return 2.75
+    elif size == "large":
+      r = print("large size coffee: ")
+      return 3.00
+    else:
+        return -1
+
+  elif liquid == "misto":
+    if size == "small":
+      r = print("small size misto: ")
+      return 3.15
+    elif size == "medium":
+      r = print("medium size misto: ")
+      return 3.35
+    elif size == "medium":
+      r = print("medium size misto: ")
+      return 3.35
+    elif size == "large":
+      r = print("large size misto: ")
+      return 3.7
+    else:
+        return -1
+      
+
+  elif liquid == "tea":
+    if size == "small":
+      r = print("small size tea: ")
+      return 2.35
+    elif size == "medium":
+      r = print("medium size tea: ")
+      return 2.45
+    elif size == "large":
+      r = print("large size tea: ")
+      return 2.90
+    else:
+        return -1 
+
+  elif liquid == "mocha":
+    if size == "small":
+      r = print("small size mocha: ")
+      return 3.5
+    elif size == "medium":
+      r = print("medium size mocha: ")
+      return 3.8
+    elif size == "large":
+      r = print("large size mocha: ")
+      return 4.25
+    else:
+        return -1
+
+  else:
+      return -1 
+                   
